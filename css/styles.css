@@ -1,0 +1,103 @@
+body{
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    margin-top: 20px;
+    background: rgb(20, 19, 20);
+}
+hr{
+    border: solid #636260 5px;
+    max-width: 800px;
+    min-width: 800px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 90px 15px black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -5px;
+    color: white;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+h5{
+    text-align: left;
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    width: 800px;
+    height: 910px;
+    margin: auto;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color:rgb(38, 38, 38);
+    border-radius: 20px;
+    box-shadow: 0 0 90px 30px black;
+    padding-bottom:10px;
+}
+.flex-item {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+}
+p{
+    margin: -1px;
+}
+.modal {
+  text-align: center;
+}
+.modal-content{
+    color:white;
+    background: #080808;
+    font-family: sans-serif;
+    border: solid #b3b1b0 5px;
+    border-radius: 20px;
+
+}
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 18px;
+}
+table, th, td {
+   border: 1px solid white;
+   align-content: left;
+   text-align: center;
+}
+.flex-item:hover{
+  box-shadow: 0 0 40px 5px #a19f9e;
+}
+
+.btn{
+color: black
+}
+
+#pong{
+    text-decoration: none;
+    font-size: 3px;
+    background color: black;
+}
