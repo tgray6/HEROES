@@ -34,7 +34,7 @@ h5{
 .flex-container {
     display: flex;
     width: 800px;
-    height: 910px;
+    height: 1050px;
     margin: auto;
     flex-direction: row;
     flex-flow: row wrap;
