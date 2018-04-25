@@ -90,6 +90,7 @@ table, th, td {
 }
 .flex-item:hover{
   box-shadow: 0 0 40px 5px #a19f9e;
+  cursor: pointer;
 }
 
 .btn{
